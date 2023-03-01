@@ -18,3 +18,14 @@ document.write("<br>"+(parseInt(numero5)));
 } else {
 document.write("<br>"+(parseInt(numero6)));
 }
+// Ejercicio numero siete
+var numero7 = prompt("Escribe un número");
+var numero8 = prompt("Escribe otro número");
+var numero9 = prompt("Escribe otro número");
+if (numero7 > numero8 && numero7 > numero9) {
+document.write("<br>"+(parseInt(numero7)));
+} else if (numero8 > numero9) {
+document.write("<br>"+(parseInt(numero8)));
+} else {
+document.write("<br>"+(parseInt(numero9)));
+}
