@@ -3,7 +3,7 @@ alert("Un mensaje");
 // Ejercicio numero dos
 document.write("Hola mundo");
 // Ejercicio numero tres
-let numero1= 3; let numero2= 5; document.write("<br>"+(numero1+numero2))
+/*let numero1= 3; let numero2= 5; document.write("<br>"+(numero1+numero2))
 // Ejercicio numero cuatro
 let nombre = prompt("Hola nombreUsuario")
 // Ejercicio numero cinco
@@ -44,4 +44,11 @@ for (i = 0; i < nText; i++) {
 if (text.substr(i,1) === "a" || text.substr(i,1) === "e" || text.substr(i,1) === "i" || text.substr(i,1) === "o" || text.substr(i,1) === "u") {
 document.write("<br>"+(text.substr(i,1)));
 }
+}*/
+// Ejercicio numero diez
+let numero11 = prompt("Escribe un número");
+if (numero11 % 2 === 0 || numero11 % 3 === 0 || numero11 % 5 === 0 || numero11 % 7 === 0) {
+document.write("<br>"+("Es divisible por 2, 3, 5 o 7"));
+} else {
+document.write("<br>"+("No es divisible ni por 2, ni por 3, ni por 5, ni por 7"));
 }
